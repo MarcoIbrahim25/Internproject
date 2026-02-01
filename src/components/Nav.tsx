@@ -27,6 +27,14 @@ function NavBar() {
             Contact
           </Link>
 
+          <Link to="/login" className="hover:text-blue-600 transition">
+            Login
+          </Link>
+
+          <Link to="/invoice" className="hover:text-blue-600 transition">
+            Invoice
+          </Link>
+
           <button
             onClick={toggleTheme}
             className="px-3 py-1 rounded-full border hover:bg-slate-100 dark:hover:bg-slate-800 transition text-xs"

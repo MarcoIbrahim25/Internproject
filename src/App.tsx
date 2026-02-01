@@ -3,17 +3,21 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NavBar from "./components/Nav";
+import LoginPage from "./pages/LoginPage";
+import InvoicePage from "./pages/InvoicePage";
 import "./App.css";
 
 function App() {
   return (
     <>
-    <NavBar />
+      <NavBar />
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/invoice" element={<InvoicePage />} />
         </Routes>
       </div>
     </>
